@@ -1,0 +1,167 @@
+body {
+  font-family: "Merriweather", serif;
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  line-height: 2;
+}
+div {
+  text-align: center;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Dynalight", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #66bfbf;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #11999e;
+  font-weight: 600;
+}
+a {
+  color: #11999e;
+  text-decoration: none;
+}
+hr {
+  width: 4%;
+  border-style: dotted;
+  border-width: 7px 0 0 0;
+  border-color: lightgray;
+  margin: 80px auto;
+}
+.pic2 {
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+}
+.pic1 {
+  position: absolute;
+  bottom: 560px;
+  left: 1000px;
+}
+.TopContainer {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 143px;
+}
+.word {
+  text-decoration: underline;
+  text-decoration-color: #ff94cc;
+  font-style: italic;
+}
+.Name {
+  width: 30%;
+  margin: 0 auto;
+  /*
+  background-color: aliceblue;
+  border: solid;
+  border-radius: 16px;
+  border-width: 2px;
+  border-color: #ff94cc;
+  */
+}
+.Lang {
+  font-style: italic;
+  font-weight: bold;
+}
+.img,
+.prof {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.bottom-container {
+  padding: 55px 0px;
+  background-color: #66bfbf;
+}
+
+.middle-container {
+  background-color: aliceblue;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.tm {
+  color: #eaf6f6;
+  font-weight: 300;
+  font-size: small;
+  position: relative;
+  top: 30px;
+}
+
+.footer-link {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin: 20px;
+  font-size: 17px;
+}
+.hello {
+  font-family: Merriweather, serif;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.talent {
+  font-family: Merriweather, serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+.BUTTON_VGV {
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  height: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: Arial;
+  width: 143px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 11px;
+  background-color: #66bfbf;
+  border: solid #66bfbf 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  .computer {
+    float: left;
+    margin-right: 30px;
+  }
+  .gaming {
+    float: right;
+    margin-left: 30px;
+    position: relative;
+    bottom: 30px;
+  }
+}
+@media (max-width: 900px) {
+  .pic1,
+  .pic2 {
+    display: none;
+  }
+  .mount {
+    width: 480px;
+    height: 300px;
+  }
+}
