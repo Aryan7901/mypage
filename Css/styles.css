@@ -55,7 +55,7 @@ hr {
 .TopContainer {
   background-color: #eaf6f6;
   position: relative;
-  padding-top: 143px;
+  padding-top: 100px;
 }
 .word {
   text-decoration: underline;
@@ -180,5 +180,12 @@ hr {
   }
   .topname {
     font-size: 4rem;
+  }
+}
+@media (max-width: 300px) {
+  .computer,
+  .gaming {
+    width: 150px;
+    height: auto;
   }
 }
