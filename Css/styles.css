@@ -1,6 +1,8 @@
 body {
   font-family: "Merriweather", serif;
   margin: 0;
+  overflow-x: hidden;
+  width: auto;
 }
 main {
   display: flex;
@@ -13,9 +15,9 @@ div {
   text-align: center;
 }
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 30px auto 0 auto;
   font-family: "Dynalight", cursive;
-  font-size: 5.625rem;
+  font-size: 5.65rem;
   color: #66bfbf;
 }
 h2 {
@@ -43,12 +45,12 @@ hr {
 .pic2 {
   position: absolute;
   bottom: 300px;
-  left: 400px;
+  left: 20%;
 }
 .pic1 {
   position: absolute;
   bottom: 560px;
-  left: 1000px;
+  left: 60%;
 }
 .TopContainer {
   background-color: #eaf6f6;
@@ -61,7 +63,7 @@ hr {
   font-style: italic;
 }
 .Name {
-  width: 30%;
+  width: 20%;
   margin: 0 auto;
   /*
   background-color: aliceblue;
@@ -155,13 +157,28 @@ hr {
     bottom: 30px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .pic1,
   .pic2 {
-    display: none;
+    position: relative;
+    width: 40%;
+    height: auto;
+    left: 5%;
   }
+  .pic1 {
+    bottom: 10%;
+  }
+
   .mount {
-    width: 480px;
-    height: 300px;
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 400px) {
+  .btmname {
+    font-size: 1.3rem;
+  }
+  .topname {
+    font-size: 4rem;
   }
 }
